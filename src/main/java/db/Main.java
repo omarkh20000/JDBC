@@ -84,7 +84,7 @@ public class Main {
 					stmt.close();
 				if (conn != null)
 					conn.close();
-			} catch (SQLException se) {
+			} catch (SQLException se)  {
 				se.printStackTrace();
 			}
 		}
